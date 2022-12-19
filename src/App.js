@@ -11,7 +11,6 @@ const App = () => {
     <>
       <div className='navbar'>
         <div className='studentInfo'>
-          /* TODO: answer here */
           <h2 className="studentName">Naufal Nur Fahriza</h2>
           <p className="studentId">FE3040879</p>
         </div>
