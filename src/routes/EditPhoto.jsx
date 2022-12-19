@@ -6,7 +6,7 @@ const EditPhoto = () => {
   const [imageUrl, setImageUrl] = useState("");
   const [captions, setCaptions] = useState("");
   const [loading, setLoading] = useState(false);
-  const [error, setEror] = useState(null);
+  const [error] = useState(null);
   const navigate = useNavigate();
   const { id } = useParams();
 
@@ -48,7 +48,7 @@ const EditPhoto = () => {
   }, [id]);
 
   if (error) return <div>Error!</div>;
-  setError(error)
+
 
   return (
     <>
